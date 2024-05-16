@@ -28,7 +28,7 @@ if [ "${GATEFilename##*.}" != "h33"  ]; then
 fi
 
 if [ "${STIRFilename##*.}" != "hv"  ]; then
-	echo "Error in STIR2GATE_interfile, the STIRFilename does not end in '*.h33'"
+	echo "Error in STIR2GATE_interfile, the STIRFilename does not end in '*.hv'"
 	echo "STIRFilename = $STIRFilename"
 	exit 1
 fi
